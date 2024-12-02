@@ -135,5 +135,6 @@ def test_homework():
     metrics = _load_metrics()
 
     _test_components(model)
-    _test_scores(model, x_train, y_train, x_test, y_test)
     _test_metrics(metrics)
+    _test_scores(model, x_train, y_train, x_test, y_test)
+    
