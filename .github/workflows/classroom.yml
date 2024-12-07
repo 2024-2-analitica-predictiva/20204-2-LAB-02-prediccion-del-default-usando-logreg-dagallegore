@@ -1,9 +1,5 @@
 name: Autograding Tests
-<<<<<<< HEAD
-'on': 
-=======
 'on':
->>>>>>> e0af2a4710a982c08f522dd0511bec3ce161ddc8
 - push
 - repository_dispatch
 permissions:
